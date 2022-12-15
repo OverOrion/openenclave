@@ -818,7 +818,7 @@ oe_result_t oe_parse_tcb_info_json(
                     platform_tcb_level->sgx_tcb_comp_svn[i]);
 
             OE_TRACE_ERROR(
-                "Invalid platform TCB level: %s "
+                "[patched] Invalid platform TCB level: %s "
                 "(cpu_svn[0] = 0x%x, pce_svn = 0x%x)",
                 oe_sgx_tcb_status_str(sgx_tcb_status),
                 platform_tcb_level->sgx_tcb_comp_svn[0],
